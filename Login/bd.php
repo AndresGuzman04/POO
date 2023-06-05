@@ -6,7 +6,7 @@ class ConexionPDO{
     private $db;
     private $user;
     private $password;
-    private $conexion;
+    public $conexion;
 
     public function __construct($host, $db, $user, $password)
     {
@@ -31,9 +31,9 @@ class ConexionPDO{
             );
 
             if ($this->conexion) {
-                echo "Conexion establecida";
+               # echo "Conexion establecida";
             }else{
-                echo "Fallo la conexion";
+              #  echo "Fallo la conexion";
             }
      
         } catch (PDOException $e) {
@@ -49,7 +49,7 @@ class ConexionPDO{
 
     public function desconectar(){
         $this->conexion = null;
-        echo "Base de datos desconetada";
+        #echo "Base de datos desconetada";
     }
 
 }

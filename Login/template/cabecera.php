@@ -29,6 +29,8 @@ if ($_SESSION['usuario']===null) {
             <a class="nav-item nav-link active" href="#">Admin<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/dash.php">  Inicio</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/libros.php">  Libros</a>
+            <a class="nav-item nav-link" href="<?php echo $url;?>/clientes.php">  Clientes</a>
+            <a class="nav-item nav-link" href="<?php echo $url;?>/alquiler.php">  Alquiler</a>
             <a class="nav-item nav-link" href="<?php echo $url;?>/cerrar.php">  Cerrar</a>
         </div>
     </nav>

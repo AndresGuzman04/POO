@@ -18,3 +18,8 @@ include("template/cabecera.php");
     </div>
 
 
+    <?php
+
+include("template/pie.php"); 
+
+?>

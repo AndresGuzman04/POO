@@ -49,18 +49,9 @@ $conexion->desconectar();
   </head>
   <body>
     
-    <div class="container">
-        <div class="row">
+    <div class="m-0 vh-100 row justify-content-center align-items-center ">
 
-          <div class="col-md-4">
-            
-          </div>
-
-            <div class="col-md-4">
-
-              <br><br><br><br><br>
-
-                <div class="card">
+                <div class="card col-3">
                     <div class="card-header">
                         Login
                     </div>
